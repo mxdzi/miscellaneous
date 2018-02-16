@@ -18,4 +18,9 @@ echo ^<ESC^>[35m [35mMagenta[0m          ^<ESC^>[45m [45mMagenta[0m         
 echo ^<ESC^>[36m [36mCyan[0m             ^<ESC^>[46m [46mCyan[0m             ^<ESC^>[96m [96mCyan[0m             ^<ESC^>[106m [106mCyan[0m
 echo ^<ESC^>[37m [37mWhite[0m            ^<ESC^>[47m [47mWhite[0m (white)    ^<ESC^>[97m [97mWhite[0m            ^<ESC^>[107m [107mWhite[0m
 echo.
+echo [7m BACKGROUNDS [0m
+echo.
+echo [40m          [41m          [42m          [43m          [44m          [45m          [46m          [47m          [0m
+echo [100m          [101m          [102m          [103m          [104m          [105m          [106m          [107m          [0m
+echo.
 pause
