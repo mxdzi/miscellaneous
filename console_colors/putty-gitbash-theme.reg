@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\Gitbash%20Theme]
+"BoldAsColour"=dword:00000001
+"Colour6"="0,0,0"
+"Colour7"="64,64,64"
+"Colour8"="191,0,0"
+"Colour9"="255,64,64"
+"Colour10"="0,191,0"
+"Colour11"="64,255,64"
+"Colour12"="191,191,0"
+"Colour13"="255,255,64"
+"Colour14"="0,0,191"
+"Colour15"="96,96,255"
+"Colour16"="191,0,191"
+"Colour17"="255,64,255"
+"Colour18"="0,191,191"
+"Colour19"="64,255,255"
+"Colour20"="191,191,191"
+"Colour21"="255,255,255"
