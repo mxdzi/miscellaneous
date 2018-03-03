@@ -14,3 +14,5 @@ Collection of color settings (themes) for consoles.
 - PuTTY
    - putty-tango-theme.reg - default Ubuntu Tango theme
    - putty-gitbash-theme.reg - default Git for Windows theme
+- TTY
+   - tty-colors-test.sh - show console colors
