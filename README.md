@@ -16,3 +16,14 @@ Collection of color settings (themes) for consoles.
    - putty-gitbash-theme.reg - default Git for Windows theme
 - TTY
    - tty-colors-test.sh - show console colors
+
+## config
+
+Configuration files for various programs.
+
+- config/windows10:
+   - cmd-open-here-add.reg - add 'Open command window here' for directories
+   - cmd-open-here-remove.reg - remove 'Open command window here' for directories
+
+- config/gitbash
+   - config files for Git for Windows
