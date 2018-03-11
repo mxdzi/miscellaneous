@@ -26,4 +26,5 @@ Configuration files for various programs.
    - cmd-open-here-remove.reg - remove 'Open command window here' for directories
 
 - config/gitbash
-   - config files for Git for Windows
+   - config files for Git for Windows:
+      - .bashrc - aliases, ssh hostname completion
