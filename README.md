@@ -35,3 +35,9 @@ Configuration files for various programs.
 - config/gitbash
    - config files for Git for Windows:
       - .bashrc - aliases, ssh hostname completion
+
+## bookmarklets
+
+Collection of bookmarklets.
+
+- jupyter-cell-copy.js - add icon to copy cell content (plain text and html) on click
