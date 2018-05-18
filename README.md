@@ -13,3 +13,6 @@ Configuration files for various programs.
 - config/gitbash
    - config files for Git for Windows:
       - .bashrc - aliases, ssh hostname completion
+
+- config/ssh
+   - config - ssh config file
