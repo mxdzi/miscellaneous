@@ -1,3 +1,7 @@
+Host *
+	ServerAliveInterval 30
+	ServerAliveCountMax 5
+
 # gitlab.com
 Host gitlab.com
 	PreferredAuthentications publickey
@@ -9,3 +13,9 @@ Host github.com
 	PreferredAuthentications publickey
 	IdentityFile ~/.ssh/id_rsa
 	User git
+
+Host HOST_ALIAS
+	HostName IP_OR_HOSTNAME
+	PreferredAuthentications publickey
+	IdentityFile ~/.ssh/id_rsa
+	User USERNAME
