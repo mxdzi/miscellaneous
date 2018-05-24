@@ -15,4 +15,4 @@ Configuration files for various programs.
       - .bashrc - aliases, ssh hostname completion
 
 - config/ssh
-   - config - ssh config file
+   - config - template ssh config file: settings, gitlab, gitbash, remote server
