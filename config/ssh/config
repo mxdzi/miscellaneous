@@ -16,6 +16,22 @@ Host github.com
 
 Host HOST_ALIAS
 	HostName IP_OR_HOSTNAME
+	Port PORT
 	PreferredAuthentications publickey
 	IdentityFile ~/.ssh/id_rsa
 	User USERNAME
+
+Host PROXY_JUMP
+	HostName IP_OR_HOSTNAME
+	PreferredAuthentications publickey
+	IdentityFile ~/.ssh/id_rsa
+	ProxyJump HOST_ALIAS
+	User USERNAME
+
+Host HOST_TUNNEL
+	HostName IP_OR_HOSTNAME
+	PreferredAuthentications publickey
+	IdentityFile ~/.ssh/id_rsa
+	User USERNAME
+	ProxyJump HOST_ALIAS
+	LocalForward LOCAL_HOST:PORT REMOTE_HOST:PORT
