@@ -36,6 +36,10 @@ Configuration files for various programs.
    - config files for Git for Windows:
       - .bashrc - aliases, ssh hostname completion
 
+- config/ssh
+   - config - template ssh config file: settings, gitlab, gitbash, remote server,
+   proxy jump, port forwarding
+
 ## bookmarklets
 
 Collection of bookmarklets.
