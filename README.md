@@ -16,4 +16,4 @@ Configuration files for various programs.
 
 - config/ssh
    - config - template ssh config file: settings, gitlab, gitbash, remote server,
-   proxy jump, port forwarding
+   proxy jump, port forwarding, SOCKS5 Proxy
