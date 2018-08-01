@@ -35,3 +35,10 @@ Host HOST_TUNNEL
 	User USERNAME
 	ProxyJump HOST_ALIAS
 	LocalForward LOCAL_HOST:PORT REMOTE_HOST:PORT
+
+Host HOST_SOCKS5_TUNNEL
+	HostName IP_OR_HOSTNAME
+	PreferredAuthentications publickey
+	IdentityFile ~/.ssh/id_rsa
+	User USERNAME
+	DynamicForward LOCAL_HOST:PORT
