@@ -3,7 +3,7 @@
 alias ipython3='winpty py -3'
 alias python3='py -3'
 alias ipython='winpty py -2'
-alias python='py -2'
+alias python2='py -2'
 
 # ssh hostname completion from config file
 _ssh()
